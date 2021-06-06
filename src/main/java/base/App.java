@@ -34,7 +34,6 @@ public class App {
     }
     private double calcCA(int p, double r, int t, double n){
         r = r/100.0;
-        return p*Math.pow(((1 + r/(n*1.0))), (n*t));
-
+        return p*Math.pow(((1 + r/(n))), (n*t));
     }
 }
